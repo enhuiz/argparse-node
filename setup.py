@@ -7,7 +7,7 @@ setup(
     name="argparse_node",
     python_requires=">=3.6.0",
     version="0.0.1",
-    description="A minimal multi-level argument parser for your python cli apps.",
+    description="A minimal multi-level argument parser for your Python cli apps.",
     author="enhuiz",
     author_email="niuzhe.nz@outlook.com",
     long_description=long_description,
