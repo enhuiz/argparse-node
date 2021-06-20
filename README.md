@@ -13,7 +13,7 @@ pip install argparse-node
 From Github:
 
 ```
-pip install git+https://github.com/enhuiz/argparse-node.git --upgrade
+pip install git+https://github.com/enhuiz/argparse-node.git
 ```
 
 ## Run an example
