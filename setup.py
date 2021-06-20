@@ -13,6 +13,6 @@ setup(
     long_description=long_description,
     long_description_content_type="text/markdown",
     packages=find_packages(),
-    install_requires=["anynode"],
+    install_requires=["anytree"],
     url="https://github.com/enhuiz/argparse_node",
 )
