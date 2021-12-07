@@ -27,7 +27,7 @@ class ArgumentParserNode(AnyNode):
                 )
             for submodule in submodules or []:
                 parser = self.subparsers.add_parser(self.get_suffix(submodule.__name__))
-                ArgumentParserNode(submodule, parser, parent=self)
+                ArgumentParserNode(submodule, parser, parent=self, starter=self.starter)
 
     @property
     def parse_args(self):

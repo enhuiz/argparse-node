@@ -6,13 +6,13 @@ with open("README.md", "r") as f:
 setup(
     name="argparse_node",
     python_requires=">=3.6.0",
-    version="0.0.1",
+    version="0.0.2",
     description="A minimal multi-level argument parser for your Python cli apps.",
     author="enhuiz",
     author_email="niuzhe.nz@outlook.com",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    packages=find_packages(),
+    packages=["argparse_node"],
     install_requires=["anytree"],
     url="https://github.com/enhuiz/argparse_node",
 )
