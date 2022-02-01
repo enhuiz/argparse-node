@@ -6,7 +6,7 @@ with open("README.md", "r") as f:
 setup(
     name="argparse_node",
     python_requires=">=3.7.0",
-    version="0.0.3.dev",
+    version="0.0.3",
     description="A minimal multi-level argument parser for your Python cli apps.",
     author="enhuiz",
     author_email="niuzhe.nz@outlook.com",
