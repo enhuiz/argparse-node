@@ -8,7 +8,7 @@ class ArgumentParserNode(AnyNode):
         module,
         parser=None,
         parent=None,
-        argument_adder="add_argument",
+        argument_adder="add_arguments",
         starter="start",
     ):
         super().__init__(name=self.get_suffix(module.__name__), parent=parent)
